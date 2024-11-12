@@ -24,7 +24,7 @@ bearer <token>
 - .NET 7
 - Entity Framework Core
 - SQLite
-- Swagger
+- Dapper
 - BCrypt
 - JWT
 
