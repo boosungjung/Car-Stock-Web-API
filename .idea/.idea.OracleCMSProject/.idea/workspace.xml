@@ -8,11 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c343ee10-9849-4b4d-9642-da724497ff52" name="Changes" comment="" />
+    <list default="true" id="c343ee10-9849-4b4d-9642-da724497ff52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OracleCMSProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OracleCMSProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/Controllers/CarsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/Controllers/CarsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/Repositories/CarRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/Repositories/CarRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/bin/Debug/net7.0/OracleCMSProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/bin/Debug/net7.0/OracleCMSProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/bin/Debug/net7.0/OracleCMSProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/bin/Debug/net7.0/OracleCMSProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/obj/Debug/net7.0/OracleCMSProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/obj/Debug/net7.0/OracleCMSProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/obj/Debug/net7.0/OracleCMSProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/obj/Debug/net7.0/OracleCMSProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleCMSProject/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/OracleCMSProject/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1edbe9176db7440b9b8f2c12e9a3a64a1fc190/b3/5eb4b637/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -34,6 +47,7 @@
     ".NET Launch Settings Profile.OracleCMSProject: http.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731283861761</updated>
-      <workItem from="1731283862917" duration="24094000" />
+      <workItem from="1731283862917" duration="24483000" />
     </task>
     <servers />
   </component>

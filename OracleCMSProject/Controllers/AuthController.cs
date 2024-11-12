@@ -22,7 +22,12 @@ namespace OracleCMSProject.Controllers
             _connection = connection;
             _configuration = configuration;
         }
-
+        
+        /// <summary>
+        ///  Register a new user
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("register")]
         public async Task<ActionResult<User>> Register(UserDto request)
         {
@@ -53,7 +58,12 @@ namespace OracleCMSProject.Controllers
 
             return Ok(user);
         }
-
+        
+        /// <summary>
+        ///  Login a user and return a JWT token
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         public async Task<ActionResult<string>> Login(UserDto request)
         {
@@ -77,7 +87,12 @@ namespace OracleCMSProject.Controllers
             string token = CreateToken(user);
             return Ok(new { token });
         }
-
+        
+        /// <summary>
+        ///  Create a JWT token for the user
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         private string CreateToken(User user)
         {
             List<Claim> claims = new List<Claim>
